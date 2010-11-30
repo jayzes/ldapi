@@ -15,7 +15,7 @@ Jeweler::Tasks.new do |gem|
   gem.name = "ldapi"
   gem.homepage = "http://github.com/jayzes/ldapi"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
+  gem.summary = %Q{Simple read-only JSON API to an LDAP server}
   gem.description = %Q{TODO: longer description of your gem}
   gem.email = "jay.zeschin@factorylabs.com"
   gem.authors = ["Jay Zeschin"]
