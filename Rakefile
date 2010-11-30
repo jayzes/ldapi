@@ -16,7 +16,7 @@ Jeweler::Tasks.new do |gem|
   gem.homepage = "http://github.com/jayzes/ldapi"
   gem.license = "MIT"
   gem.summary = %Q{Simple read-only JSON API to an LDAP server}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.description = %Q{Simple read-only JSON API to an LDAP server.  Written in Sinatra with net-ldap and json.}
   gem.email = "jay.zeschin@factorylabs.com"
   gem.authors = ["Jay Zeschin"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
