@@ -1,4 +1,9 @@
-source "http://rubygems.org"
+source :rubygems
+
+gem 'net-ldap', :require => 'net/ldap'
+gem 'json'
+gem 'sinatra'
+
 # Add dependencies required to use your gem here.
 # Example:
 #   gem "activesupport", ">= 2.3.5"
