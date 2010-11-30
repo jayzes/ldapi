@@ -1,8 +1,3 @@
-require 'sinatra'
-require 'json'
-
-
-
 class Ldapi::Application < Sinatra::Base
 
   get "/:uid.json" do

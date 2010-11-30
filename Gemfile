@@ -1,6 +1,6 @@
 source :rubygems
 
-gem 'net-ldap', :require => 'net/ldap'
+gem 'net-ldap'
 gem 'json'
 gem 'sinatra'
 

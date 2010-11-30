@@ -1,7 +1,6 @@
-require "rubygems"
-require "bundler"
-Bundler.setup :default
-Bundler.require :default
+require 'sinatra'
+require 'json'
+require 'net/ldap'
 
 module Ldapi
 end
