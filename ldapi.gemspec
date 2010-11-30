@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jay Zeschin"]
   s.date = %q{2010-11-30}
-  s.description = %q{TODO: longer description of your gem}
+  s.description = %q{Simple read-only JSON API to an LDAP server.  Written in Sinatra with net-ldap and json.}
   s.email = %q{jay.zeschin@factorylabs.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "ldapi.gemspec",
     "lib/ldapi.rb",
     "lib/ldapi/application.rb",
     "lib/ldapi/backend.rb",
